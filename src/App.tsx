@@ -1,3 +1,5 @@
+import {Prueba} from '@/components/Prueba';
+
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
           </div>
         </div>
         <button className=" border-pink-500 text-purple-200 hover:bg-purple-700 hover:border-transparent hover:text-white active:bg-purple-900 ... bg-purple-400 rounded-2xl p-2 m-2" > Message</button>
+        <Prueba></Prueba>
       </div>
     </>
   );
