@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 
 // Definimos los tipos (TypeScript es clave aquí)
 type Theme = 'light' | 'dark';
